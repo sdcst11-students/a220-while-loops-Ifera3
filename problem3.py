@@ -13,3 +13,13 @@ after the number in the sequence is greater than 100:
 Example:
 1 1 2 3 5 ...
 """
+perevease = 1
+hold = 0
+corent = 1
+print("1 1", end=' ')
+
+while corent < 100:
+    hold = corent
+    corent = corent + perevease
+    perevease = hold
+    print(corent, end=' ')

@@ -19,3 +19,12 @@ Enter number:4
 That is an even integer
 
 """
+x = 0
+
+while True:
+    x = float(input("Enter a number: "))
+    if x % 2 == 0:
+        break
+    else:
+        print("that is not an even intager")
+print("that is an even integer")

@@ -15,5 +15,13 @@ multiples of that number on one line
 
 example:
 Enter a number: 4
-4 8 12 16 20 24 28 32 36 40 44 48
+4 8 12 16 20 24 28 32 36 40 44 48 
 """
+x = int(input("enter a number: "))
+count = 1
+y = x
+
+while count < 13:
+    y = x * count
+    print(y, end=' ')
+    count = count + 1
